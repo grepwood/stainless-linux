@@ -1,6 +1,6 @@
---- a/arch/x86/Kconfig	2023-03-20 17:34:23.703197246 +0100
-+++ b/arch/x86/Kconfig	2023-04-03 21:26:39.531106850 +0200
-@@ -263,7 +263,6 @@
+--- a/arch/x86/Kconfig	2023-04-04 08:42:21.895960504 +0200
++++ b/arch/x86/Kconfig	2023-04-04 08:42:15.629293602 +0200
+@@ -266,7 +266,6 @@
  	select HAVE_STATIC_CALL_INLINE		if HAVE_OBJTOOL
  	select HAVE_PREEMPT_DYNAMIC_CALL
  	select HAVE_RSEQ
